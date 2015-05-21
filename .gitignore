@@ -1,0 +1,13 @@
+/target
+
+/.idea
+
+*.iml
+
+*.zip
+
+*.docx
+
+*.pdf
+
+*.pem
