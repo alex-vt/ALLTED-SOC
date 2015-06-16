@@ -99,7 +99,7 @@ Get the executable ALLTED binaries and check how it's working:
     user@server:~> unzip allted.zip -d allted
     user@server:~> sudo mv allted /usr/local/share/
     user@server:~> cd /usr/local/share/allted/bin
-    user@server:/usr/local/share/allted/bin> sudo chmod a+x allted createrpn run-task.sh
+    user@server:/usr/local/share/allted/bin> sudo chmod a+x allted ../createrpn run-task.sh
     user@server:/usr/local/share/allted/bin> sudo ./allted test.atd test.ato
     user@server:/usr/local/share/allted/bin> cat test.ato
     ***...
