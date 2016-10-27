@@ -2,12 +2,12 @@
 
 The software system for organizing service-oriented computing (SOC) based on the original ALLTED package.
 
-It's being developed to provide REST API for computing tasks using ALLTED.
+It provides REST API for computing tasks using ALLTED.
+
 
 ##Usage
 
-The REST API is currently available at `http://allted-soc.oleksiykovtun.com`
-and can be accessed by various apps or from a REST client.
+The REST API available after installation can be accessed by various apps or from a REST client.
 
 
 ##Installation
@@ -93,7 +93,7 @@ If you are running Debian, install unzip:
 Get the executable ALLTED binaries and check how it's working:
 
     user@server:~> cd ~
-    user@server:~> wget --no-check-certificate https://www.dropbox.com/s/hcfb5oulmtdurku/allted.zip?dl=1
+    user@server:~> wget --no-check-certificate https://www.dropbox.com/s/bxwe4wk95bpm2do/allted.zip?dl=1
     user@server:~> mv allted.zip?dl=1 allted.zip
     user@server:~> mkdir allted
     user@server:~> unzip allted.zip -d allted
